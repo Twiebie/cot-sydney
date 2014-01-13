@@ -1,0 +1,255 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #2f3333;
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #69d2e7;
+}
+
+a {
+  color: #69d2e7;
+}
+
+a:hover {
+  color: #50b9ce;
+  text-decoration: none;
+}
+
+.middle {
+  vertical-align: middle !important;
+}
+
+.right {
+  text-align: right;
+}
+
+.starred {
+  color: #fdd017;
+}
+
+.wrap {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  padding: 0 0 303px;
+  margin: 0 auto -303px;
+}
+
+/* Header */
+
+.headerwrap {
+  padding-top: 20px;
+  background: #f7f7f7 url('../img/headerwrap-bg.jpg') repeat;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-login {
+  padding: 15px;
+}
+
+/* Carousel */
+
+.carousel-inner .item {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  bottom: 50%;
+  color: #fff;
+}
+
+.carousel-caption h2 {
+  font-weight: 300;
+  color: #fff;
+}
+
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-left {
+  left: 50%;
+}
+
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-right {
+  right: 50%;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right,
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+
+/* Index */
+
+.indexblocks {
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+
+.indexblocks i {
+  font-size: 36px;
+}
+
+/* Pages */
+
+.pagerow h3:first-child {
+  margin-top: 0;
+}
+
+.pageside h4:first-child {
+  margin-top: 0;
+}
+
+.pagelabel {
+  font-size: 50%;
+}
+
+/* Users */
+
+.usersort {
+  margin-right: 5px;
+}
+
+/* Fix for main group list item in users profile. */
+
+li.list-group-item.active,
+li.list-group-item.active a {
+  color: #fff;
+  background-color: #69d2e7;
+  border-color: #69d2e7;
+}
+
+/* Forums */
+
+.forums-tab .list-unstyled li {
+  padding: 5px;
+}
+
+.forums-poster {
+  width: 15%;
+}
+
+.forums-post p {
+  position: relative;
+}
+
+.forums-signature {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  border-top: 1px solid #ededed;
+}
+
+/* Error (error.tpl) */
+
+.errortpl {
+  margin-top: 50px;
+}
+
+/* Footer */
+
+.footer {
+  height: 283px;
+  margin-top: 20px;
+  color: #ededed;
+}
+
+.footer h4 {
+  color: #69d2e7;
+}
+
+.footer a {
+  color: #ededed;
+}
+
+.footer a:hover {
+  color: #50b9ce;
+}
+
+.footertop {
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background-color: #69d2e7;
+}
+
+.footermiddle {
+  padding: 20px;
+  background-color: #2f3333;
+}
+
+.footersocial i {
+  padding: 10px;
+  font-size: 32px;
+  color: #ededed;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+}
+
+.footersocial i:hover {
+  color: #69d2e7;
+}
+
+.footerbottom {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #282b2b;
+}
+
+.footerbottom a {
+  color: #878787;
+}
+
+/* Borderless table */
+
+.table.table-borderless td,
+.table.table-borderless th {
+  border-top: 0;
+}
+
+/* Media queries */
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footertop {
+    padding: 5px 0 5px 0;
+    font-size: 13px;
+  }
+
+  .footermiddle {
+    padding: 10px 0;
+  }
+
+  .footermiddle > .container > .row > div:nth-child(2) > h4 {
+    margin-top: 40px;
+  }
+}

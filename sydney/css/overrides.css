@@ -1,0 +1,263 @@
+/* Navbar */
+
+.navbar-default {
+  background-color: #282b2b;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #282b2b;
+  background-color: #69d2e7;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+  background-color: #69d2e7;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+          transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+     -moz-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+       -o-transform: scale(1.1, 1.1);
+}
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-nav > li > a:hover {
+    margin-left: 8px;
+    color: #fff;
+            transform: scale(1);
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #adadad;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .dropdown-menu .divider {
+    background-color: #474747;
+  }
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #69d2e7;
+  background: none;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #69d2e7;
+  background: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: none;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #69d2e7;
+}
+
+.navbar-toggle {
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+}
+
+.navbar-collapse {
+  border-top: none;
+  box-shadow: none;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: -1px;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+}
+
+
+/* Buttons */
+
+.btn {
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  outline: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #69d2e7;
+  border-color: #69d2e7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #282b2b;
+  border-color: #282b2b;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  color: #e6e6e6;
+  background-color: #5b5e5e;
+  border-color: #5b5e5e;
+}
+
+.btn-group-sm > .btn {
+  border-radius: 0;
+}
+
+/* Forms */
+
+.form-control {
+  font-size: 15px;
+  border-radius: 0;
+          box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #69d2e7;
+  outline: 0;
+          box-shadow: 0 0 4px rgba(105, 210, 231, 0.6);
+  -webkit-box-shadow: 0 0 4px rgba(105, 210, 231, 0.6);
+}
+
+.input-group-addon {
+  border-radius: 0;
+}
+
+/* Pagination */
+
+.pagination,
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 0;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #69d2e7;
+  border-color: #69d2e7;
+}
+
+/* Panels */
+
+.panel {
+  border-radius: 0;
+}
+
+/* List groups */
+
+.pagecats .list-group-item {
+  padding: 10px 0;
+  border: none;
+}
+
+.list-group-item:first-child {
+  border-radius: 0;
+}
+
+.list-group-item:last-child {
+  border-radius: 0;
+}
+
+a.list-group-item:hover,
+a.list-group-item:focus {
+  background: none;
+}
+
+a.list-group-item:hover h4,
+a.list-group-item:focus h4 {
+  color: #50b9ce;
+}
+
+/* Page header */
+
+.page-header {
+  margin: 20px 0 20px;
+}
+
+/* Alerts */
+
+.alert {
+  border-radius: 0;
+}
+
+/* Badges */
+
+.badge {
+  background-color: #b3b3b3;
+}
+
+/* Progress bars */
+
+.progress {
+  border-radius: 0;
+}
+
+.progress-bar {
+  background-color: #69d2e7;
+}
