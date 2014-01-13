@@ -145,7 +145,7 @@
                 </tr>
                 <!-- END: ROW_COUNTRY -->
                 <tr>
-                  <td class="left"><span class="glyphicon glyphicon-question-sign"></span></td>
+                  <td class="left"><i class="fa fa-question-circle"></i></td>
                   <td>{PHP.L.plu_unknown}</td>
                   <td class="right">{STATISTICS_UNKNOWN_COUNT}</td>
                 </tr>
