@@ -67,10 +67,10 @@
           <!-- IF {RECENT_PAGES} OR {RECENT_FORUMS} -->
           <div class="col-sm-5 col-md-4">
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-12 pagerow">
                 {RECENT_PAGES}
               </div>
-              <div class="col-sm-12">
+              <div class="col-sm-12 pagerow">
                 {RECENT_FORUMS}
               </div>
             </div>
