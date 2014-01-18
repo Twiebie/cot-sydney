@@ -26,7 +26,7 @@
             <strong>{POLL_OPTIONS}</strong>
             <small class="pull-right">{POLL_PER}% ({POLL_COUNT})</small>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="{POLL_PER}}" aria-valuemin="0" aria-valuemax="100" style="width: {POLL_PER}%;">
+              <div class="progress-bar" role="progressbar" aria-valuenow="{POLL_PER}" aria-valuemin="0" aria-valuemax="100" style="width: {POLL_PER}%;">
                 <span>{POLL_PER}%</span>
               </div>
             </div>
