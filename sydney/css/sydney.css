@@ -33,10 +33,6 @@ a:hover {
   vertical-align: middle !important;
 }
 
-.right {
-  text-align: right;
-}
-
 .starred {
   color: #fdd017;
 }
@@ -50,7 +46,6 @@ a:hover {
 }
 
 /* Header */
-
 .headerwrap {
   padding-top: 20px;
   background: #f7f7f7 url('../img/headerwrap-bg.jpg') repeat;
@@ -62,7 +57,6 @@ a:hover {
 }
 
 /* Carousel */
-
 .carousel-inner .item {
   max-height: 400px;
   overflow: hidden;
@@ -101,7 +95,6 @@ a:hover {
 }
 
 /* Index */
-
 .indexblocks {
   margin: 30px 0 30px 0;
   text-align: center;
@@ -112,7 +105,6 @@ a:hover {
 }
 
 /* Pages */
-
 .pagerow h3:first-child {
   margin-top: 0;
 }
@@ -126,13 +118,11 @@ a:hover {
 }
 
 /* Users */
-
 .usersort {
   margin-right: 5px;
 }
 
 /* Fix for main group list item in users profile. */
-
 li.list-group-item.active,
 li.list-group-item.active a {
   color: #fff;
@@ -141,7 +131,6 @@ li.list-group-item.active a {
 }
 
 /* Forums */
-
 .forums-tab .list-unstyled li {
   padding: 5px;
 }
@@ -164,13 +153,11 @@ li.list-group-item.active a {
 }
 
 /* Error (error.tpl) */
-
 .errortpl {
   margin-top: 50px;
 }
 
 /* Footer */
-
 .footer {
   height: 283px;
   margin-top: 20px;
@@ -225,14 +212,12 @@ li.list-group-item.active a {
 }
 
 /* Borderless table */
-
 .table.table-borderless td,
 .table.table-borderless th {
   border-top: 0;
 }
 
 /* Media queries */
-
 @media (min-width: 768px) {
   .navbar-nav.navbar-right:last-child {
     margin-right: 0;

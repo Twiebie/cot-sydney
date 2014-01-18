@@ -1,7 +1,7 @@
 <?php defined('COT_CODE') or die('Wrong URL.');
 /* ====================
 [BEGIN_COT_THEME]
-Name=Sydney v0.9
+Name=Sydney v0.9.1
 Schemes=sydney:Default
 [END_COT_THEME]
 ==================== */

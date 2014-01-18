@@ -1,5 +1,4 @@
 /* Navbar */
-
 .navbar-default {
   background-color: #282b2b;
   border-radius: 0;
@@ -110,7 +109,6 @@
 
 
 /* Buttons */
-
 .btn {
   border-radius: 0;
   -webkit-transition: all 0.2s ease-in-out;
@@ -164,7 +162,6 @@ fieldset[disabled] .btn-primary.active {
 }
 
 /* Forms */
-
 .form-control {
   font-size: 15px;
   border-radius: 0;
@@ -184,7 +181,6 @@ fieldset[disabled] .btn-primary.active {
 }
 
 /* Pagination */
-
 .pagination,
 .pagination > li:first-child > a,
 .pagination > li:first-child > span,
@@ -204,13 +200,11 @@ fieldset[disabled] .btn-primary.active {
 }
 
 /* Panels */
-
 .panel {
   border-radius: 0;
 }
 
 /* List groups */
-
 .pagecats .list-group-item {
   padding: 10px 0;
   border: none;
@@ -235,25 +229,21 @@ a.list-group-item:focus h4 {
 }
 
 /* Page header */
-
 .page-header {
   margin: 20px 0 20px;
 }
 
 /* Alerts */
-
 .alert {
   border-radius: 0;
 }
 
 /* Badges */
-
 .badge {
   background-color: #b3b3b3;
 }
 
 /* Progress bars */
-
 .progress {
   border-radius: 0;
 }
