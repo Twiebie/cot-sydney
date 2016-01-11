@@ -13,7 +13,7 @@ cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/bootstrap.min.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/font-awesome.min.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/selectize-bootstrap3.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/animate.min.css');
-cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/modalbox.css');
+cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/modal.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/overrides.css');
 cot_rc_add_file($cfg['themes_dir'].'/'.$usr['theme'].'/css/sydney.css');
 
